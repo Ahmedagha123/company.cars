@@ -11,13 +11,14 @@ public class Company {
         Car car2 = new Car();
         Car car3 = new Car();
 
-        car1.setData("Bmw", "Black", 500, 2000000);
+        car1.setData("Bmw", "Black", 300, 2000000);
         car2.setData("Cooper", "Green", 300, 650000);
-        car3.setData("Bmw", "Black", 500, 2000000);
+        car3.setData("Bmw", "Yellow", 300, 2000000);
         
         
 car1.EQUALS(car1, car2);
 car1.EQUALS(car1, car3);
+car1.EQUALS(car2, car3);
     }
 
 }

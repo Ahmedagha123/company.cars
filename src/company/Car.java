@@ -18,48 +18,52 @@ public class Car {
      
          
      }
-    public void EQUALS(Car obj1,Car obj2){
-        System.out.println("comparing two cars   : "+obj1.Name+"  vs  "+obj2.Name);
-        System.out.println("");
-         if(obj1.Name.equals(obj2.Name)){
-         
-             System.out.println("same name");
-             System.out.println("********************************************");    
-         }else
-         {
-                 System.out.println("the cars with different name");
     
-            System.out.println("********************************************");    
-         }
-         if(obj1.Color.equals(obj2.Color)){
-         
-             System.out.println("same color");
-            System.out.println("********************************************");    
-         }else
-         {
-                 System.out.println("the cars with different colors");
-       System.out.println("********************************************");    
-         }
-       if(obj1.Speed==obj2.Speed){
-         
-             System.out.println("same speed");
-            System.out.println("********************************************");    
-   }else
-         {
-                 System.out.println("the cars with different speed");
-       System.out.println("********************************************");    
-         }  
-       if(obj1.Price==obj2.Price){
-         
-             System.out.println("same price");
-          System.out.println("********************************************");      
-       }else
-         {
-                 System.out.println("the cars with different price");
-       System.out.println("********************************************");    }
-       
-    }
-
+    public void EQUALS(Car obj1 , Car obj2)
+ {
+    System.out.println("Comparing Two Cars -> " + obj1.Name+"  VS  "+obj2.Name);
+        if (obj1.Name.equals(obj2.Name))
+        {
+            System.out.println("Same Name");
+            System.out.println("---------------------------------------------");
+        }
+        else
+        {
+            System.out.println("The Cars With Different Name");
+            System.out.println("---------------------------------------------");
+        }
+        if(obj1.Color.equals(obj2.Color))
+        {
+            System.out.println("Same Color");
+            System.out.println("---------------------------------------------");
+        }
+        else
+        {
+            System.out.println("The Cars With Different Color");
+            System.out.println("---------------------------------------------");
+        }
+        if(obj1.Price==obj2.Price)
+        {
+            System.out.println("Same Price");
+            System.out.println("---------------------------------------------");
+        }
+        else
+        {
+            System.out.println("The Cars With Different Price");
+            System.out.println("---------------------------------------------");
+        }
+       if(obj1.Speed==obj2.Speed)
+        {
+            System.out.println("Same Speed");
+            System.out.println("---------------------------------------------");    
+        }
+       else
+        {
+            System.out.println("the cars with different speed");
+            System.out.println("---------------------------------------------");    
+        }  
+        
+ }    
 }
     
     
